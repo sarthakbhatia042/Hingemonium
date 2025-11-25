@@ -1,10 +1,6 @@
 # Your MacBook is Now a Harmonium
 
-Hi, I'm Vedaant (or **rocktopus101** on GitHub). As a Computer Science grad student at USC, my MacBook is usually for compiling code, writing papers, and fueling a mild caffeine addiction. But I figured, why not make it musical?
-
 This app transforms your MacBook into a surprisingly fun and expressive harmonium. You play the notes on the keyboard, and in a stroke of what is either genius or madness, you **use the laptop's lid as the bellows to pump air**.
-
-This project is a fork and a complete musical reimagining of the original **LidAngleSensor** utility by the brilliant Sam Gold.
 
 ## How to Play Your Laptop
 
@@ -19,7 +15,7 @@ The concept is simple, just like a real harmonium: you need air and you need to 
 ## The Obligatory FAQ
 
 **So, what is this, exactly?**
-It's an app that proves that with enough programming, you can turn any piece of hardware into a musical instrument. It's also a fantastic way for me to learn about macOS audio programming instead of studying for my finals.
+It's an app that proves that with enough programming, you can turn any piece of hardware into a musical instrument.
 
 **Wait, the LID is the bellows? How?**
 Yep. MacBooks have a hidden lid angle sensor that reports its exact position. I'm using the *velocity* of the lid movement to simulate pumping air into a virtual reservoir. It's the most fun you can have with a hinge.
@@ -36,11 +32,6 @@ Right now, the code doesn't really work for piano style sharper notes so if you 
 
 **Why is the size so big?**
 It's the 40 high quality Harmonium sounds.
-
-
-## Origins & Big Thanks
-
-This project stands on the shoulders of a giant. It would not exist without the original **LidAngleSensor** utility created by **Sam Gold**. He did the hard work of discovering the sensor and building the original app. I just put a musical spin on it. All credit for the foundational concept goes to him. You should check out his work!
 
 ## Building It
 
